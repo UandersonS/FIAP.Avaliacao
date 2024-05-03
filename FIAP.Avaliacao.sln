@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Avaliacao.Api", "FIAP.Avaliacao.Api\FIAP.Avaliacao.Api.csproj", "{8E1744BC-FCA5-493A-BC09-EF6A92369261}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Avaliacao.Domain", "FIAP.Avaliacao.Domain\FIAP.Avaliacao.Domain.csproj", "{0E28B005-05C9-4E63-ABAC-27552BF27862}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Avaliacao.Infra", "FIAP.Avaliacao.Infra\FIAP.Avaliacao.Infra.csproj", "{0A3DEDF6-0849-4B2C-B858-3BA847EF33F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Avaliacao.Application", "FIAP.Avaliacao.Application\FIAP.Avaliacao.Application.csproj", "{3C3139C4-396C-47A3-82C6-BD28B9A57349}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Avaliacao.UnitTests", "FIAP.Avaliacao.UnitTests\FIAP.Avaliacao.UnitTests.csproj", "{9D694E57-8D1D-4414-AD60-538E59F59F81}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FIAP.Avaliacao.Sql", "FIAP.Avaliacao.Sql\FIAP.Avaliacao.Sql.sqlproj", "{9900D80F-C202-496C-8808-2B9EE3C45342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E1744BC-FCA5-493A-BC09-EF6A92369261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1744BC-FCA5-493A-BC09-EF6A92369261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1744BC-FCA5-493A-BC09-EF6A92369261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1744BC-FCA5-493A-BC09-EF6A92369261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E28B005-05C9-4E63-ABAC-27552BF27862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E28B005-05C9-4E63-ABAC-27552BF27862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E28B005-05C9-4E63-ABAC-27552BF27862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E28B005-05C9-4E63-ABAC-27552BF27862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3DEDF6-0849-4B2C-B858-3BA847EF33F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3DEDF6-0849-4B2C-B858-3BA847EF33F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3DEDF6-0849-4B2C-B858-3BA847EF33F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3DEDF6-0849-4B2C-B858-3BA847EF33F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3139C4-396C-47A3-82C6-BD28B9A57349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3139C4-396C-47A3-82C6-BD28B9A57349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3139C4-396C-47A3-82C6-BD28B9A57349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3139C4-396C-47A3-82C6-BD28B9A57349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D694E57-8D1D-4414-AD60-538E59F59F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D694E57-8D1D-4414-AD60-538E59F59F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D694E57-8D1D-4414-AD60-538E59F59F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D694E57-8D1D-4414-AD60-538E59F59F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9900D80F-C202-496C-8808-2B9EE3C45342}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8407850-DCDD-4771-84A7-D10FCB594822}
+	EndGlobalSection
+EndGlobal

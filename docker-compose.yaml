@@ -1,0 +1,10 @@
+services:
+  sqlserver:
+    container_name: fiap-sqlserver
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "teste123!"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
